@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    background-color: #011F3F;
+}
+.container{
+    display: block;
+    /* width: 50%; */
+    margin: auto;
+}
+#level-title{
+    color: #e1e8f0;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin-top: 5%;
+}
+.row{
+    display: flex;
+    width: 50%;
+    margin:auto;
+    justify-content: center; 
+}
+.btn{
+    margin: 25px;
+    padding: 14%;
+    border-radius: 20%;
+    border: 10px solid black;
+    cursor: pointer;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+    
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+
+.pressed {
+    
+    background-color: grey;
+    -webkit-animation: glowing 1s ease-in-out infinite alternate;
+    -moz-animation: glowing 1s ease-in-out infinite alternate;
+    animation: glowing 1s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes glowing {
+    from {
+      box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f0f, 0 0 40px #0ff, 0 0 50px
+      
+    }
+    to {
+      box-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px
+    }
+  }
+.wrong-sel{
+    background-color: rgb(120, 10, 10);
+    opacity: 0.8;
+}
